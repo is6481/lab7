@@ -39,7 +39,7 @@ Then log in to your AWS account and do the following.
 
 Once you have selected your database, click on the link to go to the
 attached security group. ![Step
-1](https://github.com/is6481/lab7/security_step01.png)
+1](https://github.com/is6481/lab7/blob/master/security_step01.png)
 
 ### Step 2
 
