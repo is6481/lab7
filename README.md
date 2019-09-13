@@ -44,7 +44,7 @@ attached security group. ![Step
 ### Step 2
 
 Click on the *Inbound* rules section and then click *Edit*. ![Step
-2](/Users/jeremymorris/utah_teaching/is6481/lab7/security_step02.png)
+2](https://github.com/is6481/lab7/blob/master/security_step02.png)
 
 ### Step 3
 
@@ -53,7 +53,7 @@ Rule* for each of the IP addresses listed on Domo’s site. I believe
 you’ll only need to do the ones listed in US East (AWS). Under *Type*
 select *MySQL*. This will pre-populate the port correctly. Copy and
 paste each IP address as shown on Domo’s site. ![Step
-3](/Users/jeremymorris/utah_teaching/is6481/lab7/security_step03.png)
+3](https://github.com/is6481/lab7/blob/master/security_step03.png)
 
 ### Step 4
 
