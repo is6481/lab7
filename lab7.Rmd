@@ -9,13 +9,13 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 # options(width = 120)
 library(ggplot2)
-library(fpc)
+# library(fpc)
 library(tidyverse)
 library(reshape2)
 library(ggrepel)
 library(gridExtra)
-library(rpart)
-library(rpart.plot)
+# library(rpart)
+# library(rpart.plot)
 ```
 
 # Objectives
@@ -27,7 +27,20 @@ library(rpart.plot)
 
 # Instructions
 
-To get started, [click here](https://aws.amazon.com/getting-started/tutorials/create-mysql-db/) and follow the instructions through step 3. (Feel free to go through step 4 after the course is completed, but only if you really feel like it.)
+To get started, log into your AWS Management Console and use the following instructions to create a database.
+
+* In the search box, type RDS and click on that link.
+* Click the "Create database" button at the top.
+* Select "Standard Create" and "MySQL" options ![DB Select](`r here::here('select_db.png')`)  
+* Select "Free tier" in the Templates section (note you can select any option here, we won't need more than the free tier for this assignment). ![Templates](`r here::here('templates.png')`)  
+* Select an appropriate database identifier.
+* Leave the master username as "admin". I've found that changing that to "root" can have some bad sideffects.
+* Create a password.
+* Click the "additional connectivity configuration in the Connectivity section. ![Connectivity](`r here::here('connectivity.png')`)  
+* Click "Yes" under Public access (not doing this will prevent you from finishing the assignment). ![public](`r here::here('public.png')`)  
+* Scroll to the bottom and click "Create database".
+* Wait 5-10 minutes for the database to be created.
+
 
 Once you have the MySQL workbench installed and connected to the database, you'll need to upload some data. To do this, go to Files/Data Files in Canvas and download the northwind_db_mysql.sql file. Once the file is open, click on the *Query* menu and select *Execute (All or Selection)*. Note that it will take some time to create the database, create the tables and load all the data.
 

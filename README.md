@@ -9,11 +9,29 @@ Objectives
 Instructions
 ============
 
-To get started, [click
-here](https://aws.amazon.com/getting-started/tutorials/create-mysql-db/)
-and follow the instructions through step 3. (Feel free to go through
-step 4 after the course is completed, but only if you really feel like
-it.)
+To get started, log into your AWS Management Console and use the
+following instructions to create a database.
+
+-   In the search box, type RDS and click on that link.
+-   Click the “Create database” button at the top.
+-   Select “Standard Create” and “MySQL” options ![DB
+    Select](/Users/jeremymorris/utah_teaching/is6481/lab7/select_db.png)  
+-   Select “Free tier” in the Templates section (note you can select any
+    option here, we won’t need more than the free tier for this
+    assignment).
+    ![Templates](/Users/jeremymorris/utah_teaching/is6481/lab7/templates.png)  
+-   Select an appropriate database identifier.
+-   Leave the master username as “admin”. I’ve found that changing that
+    to “root” can have some bad sideffects.
+-   Create a password.
+-   Click the "additional connectivity configuration in the Connectivity
+    section.
+    ![Connectivity](/Users/jeremymorris/utah_teaching/is6481/lab7/connectivity.png)  
+-   Click “Yes” under Public access (not doing this will prevent you
+    from finishing the assignment).
+    ![public](/Users/jeremymorris/utah_teaching/is6481/lab7/public.png)  
+-   Scroll to the bottom and click “Create database”.
+-   Wait 5-10 minutes for the database to be created.
 
 Once you have the MySQL workbench installed and connected to the
 database, you’ll need to upload some data. To do this, go to Files/Data
@@ -39,12 +57,12 @@ Then log in to your AWS account and do the following.
 
 Once you have selected your database, click on the link to go to the
 attached security group. ![Step
-1](https://github.com/is6481/lab7/blob/master/security_step01.png)
+1](/Users/jeremymorris/utah_teaching/is6481/lab7/security_step01.png)
 
 ### Step 2
 
 Click on the *Inbound* rules section and then click *Edit*. ![Step
-2](https://github.com/is6481/lab7/blob/master/security_step02.png)
+2](/Users/jeremymorris/utah_teaching/is6481/lab7/security_step02.png)
 
 ### Step 3
 
@@ -53,7 +71,7 @@ Rule* for each of the IP addresses listed on Domo’s site. I believe
 you’ll only need to do the ones listed in US East (AWS). Under *Type*
 select *MySQL*. This will pre-populate the port correctly. Copy and
 paste each IP address as shown on Domo’s site. ![Step
-3](https://github.com/is6481/lab7/blob/master/security_step03.png)
+3](/Users/jeremymorris/utah_teaching/is6481/lab7/security_step03.png)
 
 ### Step 4
 
