@@ -83,6 +83,17 @@ website](https://www.whatismyip.com/).
 To Turn In
 ==========
 
-After you have everything configured, connect one of the tables from the
-new database to Domo and create a card. To complete the assignment, copy
-the url of the card as the submission of the lab.
+After you have everything configured do the following.
+
+-   Connect one of the tables from the new database to Domo and create a
+    card.
+-   Go to the [accounts page in
+    Domo](https://utah-is6481-fall2020.domo.com/datacenter/accounts) and
+    share the account with the Instructor/TA group (sharing can be done
+    using the wrench in the appropriate account).
+-   To complete the assignment, copy the url of the card as the
+    submission of the lab.
+
+I’ll be using the account sharing as the primary way of grading the
+assignment. If you accidentally created a personal Domo instance for
+labs 2 - 4, please use the classroom’s instance for this assignment.
