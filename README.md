@@ -19,7 +19,7 @@ following instructions to create a database.
 -   Select “Free tier” in the Templates section (note you can select any
     option here, we won’t need more than the free tier for this
     assignment).
-    ![Templates](/Users/jeremymorris/utah_teaching/is6481/lab7/templates.png)  
+    ![Templates](templates.png)  
 -   Select an appropriate database identifier.
 -   Leave the master username as “admin”. I’ve found that changing that
     to “root” can have some bad sideffects.
