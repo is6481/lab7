@@ -1,13 +1,11 @@
-Objectives
-==========
+# Objectives
 
 -   Create a MySQL database using Amazon Web Services (AWS)
 -   Connect to the newly created database and upload some data
 -   Modify permissions for the database
 -   Upload data to Domo for visualization
 
-Instructions
-============
+# Instructions
 
 To get started, log into your AWS Management Console and use the
 following instructions to create a database.
@@ -77,17 +75,12 @@ connect using MySQL Workbench, it is very likely your home IP address is
 not in the Inbound rules. Your current IP address can be found by going
 to [this website](https://www.whatismyip.com/).
 
-To Turn In
-==========
+# To Turn In
 
 After you have everything configured do the following.
 
 -   Connect one of the tables from the new database to Domo and create a
     card. Share that card with the Instructor/TA group.
--   Go to the [accounts page in
-    Domo](https://utah-is6481-fall2020.domo.com/datacenter/accounts) and
-    share the account with Jeremy Morris (sharing can be done using the
-    wrench in the appropriate account).
 -   To complete the assignment, copy the url of the card as the
     submission of the lab.
 
