@@ -7,14 +7,10 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-# options(width = 120)
 library(ggplot2)
-# library(fpc)
 library(tidyverse)
 library(ggrepel)
 library(gridExtra)
-# library(rpart)
-# library(rpart.plot)
 ```
 
 # Objectives
@@ -30,15 +26,15 @@ To get started, log into your AWS Management Console and use the following instr
 
 * In the search box, type RDS and click on that link.
 * Click the "Create database" button at the top.
-* Select "Standard Create" and "MySQL" options ![DB Select](select_db.png)  
-* Select "Free tier" in the Templates section (note you can select any option here, we won't need more than the free tier for this assignment). ![Templates](templates.png)  
-* Select an appropriate database identifier.
-* Leave the master username as "admin". I've found that changing that to "root" can have some bad sideffects.
-* Create a password.
-* Click the "additional connectivity configuration in the Connectivity section. ![Connectivity](connectivity.png)  
-* Click "Yes" under Public access (not doing this will prevent you from finishing the assignment). ![public](public.png)  
-* Scroll to the bottom and click "Create database".
-* Wait 5-10 minutes for the database to be created.
+* Change the following settings as you scroll down the page.
+	* Select "Standard Create" and "MySQL" options 
+	* Select "Free tier" in the Templates section (note you can select any option here, we won't need more than the free tier for this assignment). 
+	* Enter an appropriate DB instance identifier in the "Settings" section
+	* Leave the master username as "admin". I've found that changing that to "root" can have some bad sideffects.
+	* Create a password.
+	* Scroll down to the Connectivity section and make sure Public access is set to "Yes"
+* Once these settings have been changed, scroll down to the bottom and click "Create database"
+* It will take around 5-10 minutes to create the database.
 
 
 Once you have the MySQL workbench installed and connected to the database, you'll need to upload some data. To do this, go to **Files/Data Files in Canvas and download the northwind_db_mysql.sql** file. Once the file is open, click on the *Query* menu and select *Execute (All or Selection)*. Note that it will take some time to create the database, create the tables and load all the data.
